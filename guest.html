@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Guest List Manager</title>
+    <link rel="stylesheet" href="./guest.css">
+</head>
+<body>
+
+    <section id="section">
+        <h1 id="myHeading"><em>Guest Event list.</em></h1>
+        <p id="myParagraph"></p>
+        <form id="guestForm">
+            <label style="font-style: italic; font-size: 25px; color: black;">Guest Name:</label>
+            <input id="guestName" type = "text" placeholder = "Alan Turing">
+            <div id="even">
+                <div>
+                    <input type="radio" name="category" value="Family" >
+                    <label class="guests">Family</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" value="Relative" >
+                    <label class="guests">Relative</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" value="Friend" >
+                    <label class="guests">Friend</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" value="VIP" >
+                    <label class="guests">VIP</label>
+                </div>
+                <button id="submit" click="addName()">SUBMIT</button>
+            </div>
+        </form>
+        <hr>
+        <h2>List of guests on the list.</h2>
+        <br>
+        <ul id="list"> 
+
+        </ul>
+    </section>
+    <script src="src/guest.js"></script>
+</body>
+</html>
+
