@@ -15,3 +15,6 @@ As a user:
 -You should be able to remove a guest from the list using a delete button.
 
 The guest list is limited to 10 people
+
+You can access this list managaer throught: [https://](https://bessmack.github.io/week2-code-challenge/)
+GRACIAS!
