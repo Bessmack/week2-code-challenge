@@ -16,5 +16,5 @@ As a user:
 
 The guest list is limited to 10 people
 
-You can access this list manager through: https://bessmack.github.io/week2-code-challenge/
+You can access this list manager through: https://bessmack.github.io/week2-code-challenge 
 GRACIAS!
