@@ -64,7 +64,7 @@ form.addEventListener("submit", function(event){
         let rsvp = document.createElement("button");
         rsvp.textContent = "Attending";
         rsvp.onclick = function reserved(){
-            rsvp.textContent = rsvp.textContent === "Attending" ? "Attending" : "Not Attending";
+            rsvp.textContent = rsvp.textContent === "Attending" ?"Not Attending" : "Attending" ;
         }
         li.appendChild(rsvp);
 
