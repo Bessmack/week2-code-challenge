@@ -55,7 +55,7 @@ form.addEventListener("submit", function(event){
 //Forming a span element to hold time data
         const time =new Date().toLocaleTimeString('en',{ hour: '2-digit', minute: '2-digit' });
         const nameInfo = document.createElement('span');
-        nameInfo.innerHTML = time;
+        nameInfo.textContent = time;
         li.appendChild(nameInfo);
         //testing my output
         console.log(time);
@@ -64,7 +64,7 @@ form.addEventListener("submit", function(event){
         let rsvp = document.createElement("button");
         rsvp.textContent = "Attending";
         rsvp.onclick = function reserved(){
-            rsvp.textContent = rsvp.textContent === "Attending" ?"Not Attending" : "Attending" ;
+            rsvp.textContent = rsvp.textContent === "Attending" ?"Not Attending": "Attending" ;
         }
         li.appendChild(rsvp);
 
